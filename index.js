@@ -31,6 +31,12 @@ function currentLine(line){
   
   for(let i = 0; i < line.length; i++){
     
+    if(i = line.length-1){
+      let noComa = `${i+1}. ${line[i]}`
+      words += noComa; 
+    }
+    
+    
     let addOn = `${i+1}. ${line[i]}, `
     words += addOn; 
     
