@@ -1,7 +1,7 @@
 function takeANumber (line, name){
   
   
-  return `Welcome, ${name}. You are number ${line.length}`
+  return `Welcome, ${name}. You are number ${line.length+1}`
   
   
 }
