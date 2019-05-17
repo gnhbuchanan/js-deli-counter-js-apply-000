@@ -1,7 +1,7 @@
-function takeANumber (line, names){
+function takeANumber (line, name){
   
   
-  
+  return `Welcome, ${name}. You are number ${line.length()}`
   
   
 }
