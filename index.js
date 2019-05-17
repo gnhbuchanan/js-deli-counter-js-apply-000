@@ -18,3 +18,23 @@ function nowServing(line){
   return `Currently serving ${element}.`; 
   
 }
+
+
+
+function currentLine(line){
+  
+  let words = 'The line is currently: '
+  
+  for(let i = 0; i < line.length; i++){
+    
+    let addOn = `${i+1}. ${line[i]},`
+    words += addOn; 
+    
+  }
+  
+  return words; 
+}
+
+
+
+
