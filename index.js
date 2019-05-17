@@ -31,7 +31,7 @@ function currentLine(line){
   
   for(let i = 0; i < line.length; i++){
     
-    let addOn = `${i+1}. ${line[i]},`
+    let addOn = `${i+1}. ${line[i]}, `
     words += addOn; 
     
   }
