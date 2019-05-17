@@ -39,6 +39,7 @@ function currentLine(line){
     
     let addOn = `${i+1}. ${line[i]}, `
     words += addOn; 
+  
     }
   }
   
