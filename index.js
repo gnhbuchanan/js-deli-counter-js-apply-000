@@ -15,6 +15,6 @@ function nowServing(line){
   
   let element = line.shift();
   
-  return `Currently serving ${element}`; 
+  return `Currently serving ${element}.`; 
   
 }
