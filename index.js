@@ -35,11 +35,11 @@ function currentLine(line){
       let noComa = `${i+1}. ${line[i]}`
       words += noComa; 
     }
-    
+    else{
     
     let addOn = `${i+1}. ${line[i]}, `
     words += addOn; 
-    
+    }
   }
   
   return words; 
