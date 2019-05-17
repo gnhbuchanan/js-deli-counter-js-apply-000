@@ -13,10 +13,8 @@ function nowServing(line){
     return 'There is nobody waiting to be served!'
   }
   
-  let element = line.unshift();
+  let element = line.shift();
   
-  //console.log(line);
-  
-  return `Currently serving ${line}`; 
+  return `Currently serving ${element}`; 
   
 }
