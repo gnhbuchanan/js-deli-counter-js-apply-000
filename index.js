@@ -15,8 +15,8 @@ function nowServing(line){
   
   let element = line.unshift();
   
-  console.log(line);
+  //console.log(line);
   
-  return `Currently serving ${element}`; 
+  return `Currently serving ${line}`; 
   
 }
